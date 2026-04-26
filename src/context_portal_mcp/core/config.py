@@ -97,4 +97,3 @@ def get_database_path(workspace_id: str) -> pathlib.Path:
     db_path = db_dir / _db_filename
     log.debug(f"Constructed db_path: {db_path}")
     return db_path
-
